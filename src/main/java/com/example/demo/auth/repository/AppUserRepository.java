@@ -20,7 +20,7 @@ import com.example.demo.entity.AppUser;
 public interface AppUserRepository extends JpaRepository<AppUser, Integer>{
 	Optional<AppUser> findByUsername(String username);
 	List<AppUser> findByActive(boolean active);
-//	Boolean existsByUsername(String username);
-//	Boolean existsByEmail(String email);
+	Boolean existsByUsername(String username);
+	Boolean existsByEmail(String email);
 	List<AppUser> findByEmployeeCodeAndActive(String code, boolean active);
 }

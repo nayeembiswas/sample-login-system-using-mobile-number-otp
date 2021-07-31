@@ -21,12 +21,6 @@ import com.example.demo.auth.service.CustomUserDetailsService;
 import com.example.demo.auth.utill.AuthTokenUtils;
 
 
-/**
- * @Project   ibcs-bof-erp
- * @Author    Md. Mizanur Rahman - 598
- * @Since     May 28, 2021
- * @version   1.0.0
- */
 public class AuthTokenFilter extends OncePerRequestFilter {
 
 	private static final Logger LOG = LoggerFactory.getLogger(AuthTokenFilter.class);

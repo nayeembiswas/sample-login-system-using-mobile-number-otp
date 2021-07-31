@@ -36,7 +36,7 @@ import lombok.Data;
 @Table(name = "SYA_APP_USER")
 public class AppUser implements Serializable{
 
-	
+
 	private static final long serialVersionUID = 1L;
 	
 	@Id
@@ -61,25 +61,25 @@ public class AppUser implements Serializable{
 	
 	@Column(name = "MOBILE", length=20)
 	private String mobile;
-	
+
 	@Column(name = "EMPLOYEE_CODE", length=50)
 	private String employeeCode;
-	
+
 	@Column(name = "NAME", length=100)
 	private String name;
-	
+
 	@Column(name = "BANGLA_NAME", length=100)
 	private String banglaName;
-	
+
 	@Column(name = "DESIGNATION", length=100)
 	private String designation;
-	
+
 	@Column(name = "IS_ACCOUNT_EXPIRED", columnDefinition = "boolean default false")
 	private Boolean accountExpired = false;
-	
+
 	@Column(name = "IS_CREDENTIALS_EXPIRED", columnDefinition = "boolean default false")
 	private Boolean credentialsExpired = false;
-	
+
 	@Column(name = "IS_ACCOUNT_LOCKED", columnDefinition = "boolean default false")
 	private Boolean accountLocked = false;
 	

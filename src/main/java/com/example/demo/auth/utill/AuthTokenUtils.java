@@ -20,12 +20,6 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.SignatureException;
 import io.jsonwebtoken.UnsupportedJwtException;
 
-/**
- * @Project   ibcs-bof-erp
- * @Author    Md. Mizanur Rahman - 598
- * @Since     May 28, 2021
- * @version   1.0.0
- */
 @Component
 public class AuthTokenUtils {
 	
