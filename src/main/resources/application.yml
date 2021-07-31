@@ -13,9 +13,9 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/test
+    url: jdbc:postgresql://localhost:5432/sample_login?createIfNotExists=true
     username: postgres
-    password: postgra
+    password: postgre
     #data: classpath:/component-module-submodule.sql,classpath:/role.sql,classpath:/permissions.sql,classpath:/user-role.sql,classpath:/role_permission.sql,classpath:/url-data.sql,classpath:/api-endpoints.sql,classpath:/navigations.sql
     initialization-mode: always
   # JPA properties
@@ -34,9 +34,9 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/test
+    url: jdbc:postgresql://localhost:5432/sample_login?createIfNotExists=true
     username: postgres
-    password: postgra
+    password: postgre
     #data: classpath:/component-module-submodule.sql,classpath:/role.sql,classpath:/permissions.sql,classpath:/user-role.sql,classpath:/role_permission.sql,classpath:/url-data.sql,classpath:/api-endpoints.sql,classpath:/navigations.sql
     initialization-mode: always
   # JPA properties
