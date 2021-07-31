@@ -8,6 +8,7 @@ public class SampleLoginSystemUsingMobileNumberOtpApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SampleLoginSystemUsingMobileNumberOtpApplication.class, args);
+		System.out.println("Server Running");
 	}
 
 }
